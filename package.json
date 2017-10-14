@@ -1,0 +1,27 @@
+{
+  "name": "projectEuler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.js",
+  "scripts": {
+    "test": "mocha lib/test/*.js",
+    "build": "babel src --watch -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexPattison/projectEuler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexPattison/projectEuler/issues"
+  },
+  "homepage": "https://github.com/AlexPattison/projectEuler#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
